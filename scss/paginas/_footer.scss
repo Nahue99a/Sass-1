@@ -1,0 +1,43 @@
+footer{
+    margin-top: 2%;
+    text-align: center;
+    list-style: none;
+
+    ul{
+        li{
+            margin-top: 5px;
+        }
+    }
+}
+
+#whatsapp{
+    color: rgb(0, 0, 0);
+}
+
+#facebook{
+    color: rgb(0, 0, 0);
+}
+
+#instagram{
+    color: rgb(0, 0, 0);
+}
+
+#youtube{
+    color: rgb(0, 0, 0);
+}
+
+#whatsapp:hover{
+    color:#0fad44 ;
+}
+
+#facebook:hover{
+    color: #09157e;
+}
+
+#instagram:hover{
+    color: rgb(110, 31, 110);
+}
+
+#youtube:hover{
+    color: red;
+}

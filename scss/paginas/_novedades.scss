@@ -1,0 +1,42 @@
+.novedades{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.gridContainer{
+    margin: 2%;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 800px 500px;
+}
+
+.gridItem{
+    border: solid 1px black;
+}
+
+.uno{
+    grid-column-start:1 ;
+    grid-column-end: 5; 
+}
+
+.dos{
+    grid-column: 1/3;
+}
+
+.tres{
+    grid-column: 3/5;
+}
+
+.modeloNuevo
+{
+    width:100%;
+    height: 100%;
+    transition: all 2s;
+}
+
+#novedades
+{
+    width: 100%;
+    height: 100%;
+}
